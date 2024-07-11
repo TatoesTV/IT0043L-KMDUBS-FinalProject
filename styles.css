@@ -22,4 +22,10 @@
 
 .bg-green {
   background: #0f9d17;
+}
+
+.article-img {
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center center;
 }/*# sourceMappingURL=styles.css.map */

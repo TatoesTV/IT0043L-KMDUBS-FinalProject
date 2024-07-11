@@ -1,11 +1,51 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HomePage</title>
+  <title>OnlineServices</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .hero p {
+        margin: 10px 0;
+    }
+    .content {
+        padding: 20px;
+    }
+    .service-section {
+        margin-bottom: 40px;
+    }
+    .service-section h2 {
+        margin-bottom: 20px;
+    }
+    .service-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .service-item img {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+    .service-item div {
+        flex: 1;
+    }
+    .service-item h3 {
+        margin: 0 0 5px;
+    }
+    .service-item a {
+        color: green;
+        text-decoration: none;
+    }
 
+  </style>
+  
   <!-- Bootstrap CSS v5.2.1 -->
   <link
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -39,7 +79,7 @@
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="/src/assets/md-main-logo.png" alt="MercuryDrugLogo" width="45%">
+        <img src="../assets/md-main-logo.png" alt="philhealth logo" width="45%">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,7 +101,46 @@
     </div>
   </nav>
   <!--NAVBAR-->
-
+ <div class="content">
+    <div class="service-section">
+        <h2>Membership</h2>
+        <div class="service-item">
+            <img src="inquiry.png" alt="Inquiry Icon">
+            <div>
+                <h3>Member Portal</h3>
+                <a href="#">Register/Login</a>
+                <p>Enables members to check on the accuracy of their membership details</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="egroup.png" alt="Egroup Icon">
+            <div>
+                <h3>Electronic Group Enrollment System</h3>
+                <a href="#">Login</a>
+                <p>Facilitates registration and billing of Organized Groups.</p>
+            </div>
+        </div>
+    </div>
+    <div class="service-section">
+        <h2>Benefits</h2>
+        <div class="service-item">
+            <img src="crs.png" alt="CRS Icon">
+            <div>
+                <h3>Case Rates Search</h3>
+                <a href="#">Begin Search</a>
+                <p>Provides members with information on PhilHealth's benefit packages</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="cec.png" alt="CEC Icon">
+            <div>
+                <h3>Claims Eligibility Checking</h3>
+                <a href="#">Login</a>
+                <p>Enables providers to ascertain the benefit availment eligibility of members</p>
+            </div>
+        </div>
+    </div>
+</div>
   
   <div class="b-example-divider"></div>
 
